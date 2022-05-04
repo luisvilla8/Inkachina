@@ -1,0 +1,32 @@
+.blob {
+  position: absolute;
+  width: 200px;
+  height: 150px;
+  left: -20%;
+  top: -10%;
+}
+.blob:nth-of-type(2) {
+  left: 50%;
+  top: -180%;
+  transform: rotate(-45deg);
+}
+
+h1 {
+  display: inline-flex;
+
+  color: var(--logo-color);
+  font-family: var(--font-family);
+  font-weight: 900;
+  font-size: var(--font-size-h1);
+  position: relative; 
+  z-index: 2;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  position: relative;
+  width: fit-content;
+}

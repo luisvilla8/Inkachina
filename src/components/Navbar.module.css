@@ -1,0 +1,66 @@
+@import url('../variables.css');
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background-color: var(--dark-bg-color);
+
+  padding: 3rem 4rem;
+}
+
+.nav h1 {
+  display: inline-flex;
+
+  color: var(--logo-color);
+  font-family: var(--font-family);
+  font-weight: 900;
+  font-size: var(--font-size-h1);
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav input {
+  background: var(--dark-bg-color-secondary);
+  border: 2px solid var(--primary-color);
+  box-shadow: 0px 5px 30px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+
+  padding: .8rem 1rem;
+  width: 25rem;
+  caret-color: var(--primary-color);
+}
+
+.link__login {
+  display: flex;
+  align-items: center;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: .6rem;
+  padding: 0rem 2rem;
+  cursor: pointer;
+  color: var(--font-color-primary);
+  font-family: var(--font-family);
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  margin-top: 1rem;
+  gap: 3rem;
+}
+
+.nav ul a {
+  color: var(--font-color-secondary);
+  font-family: var(--font-family);
+  font-size: var(--font-size-p);
+}
